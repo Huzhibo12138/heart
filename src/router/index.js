@@ -7,7 +7,8 @@ import JiaHao from '../pages/JiaHao'
 import JiMai from '../pages/JiMai'
 import FaBu from '../pages/FaBu'
 import lv from '../pages/lv'
-
+import chat from '@/pages/chat'
+import consult from '@/pages/consult'
 
 Vue.use(Router)
 
@@ -51,6 +52,16 @@ export default new Router({
       path: '/lv/',
       name: 'lv',
       component: lv,
+    },
+    {
+      path: '/chat',
+      name: 'chat',
+      component: chat
+    },
+    {
+      path: '/consult',
+      name: 'consult',
+      component: consult
     }
-  ],
+  ]
 })

@@ -6,10 +6,13 @@ yarn-debug.log*
 yarn-error.log*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 srcProjectPic/
 
 =======
 >>>>>>> hk
+=======
+>>>>>>> lhy
 # Editor directories and files
 .idea
 .vscode
