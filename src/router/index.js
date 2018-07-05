@@ -17,7 +17,6 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      // 重定向
       redirect:'/index/suggest',
       component: index,
       children:[
@@ -60,10 +59,5 @@ export default new Router({
       ],
     },
 
-    // {
-    //   path: '/eeee',
-    //   name: 'eeee',
-    //   component: eeee
-    // }
   ]
 })

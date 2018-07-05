@@ -4,19 +4,19 @@
       <i class="iconfont icon-fangzicopy f2"></i>
       <span >首页</span>
     </div>
-    <div class="footList f1">
+    <div class="footList f1" @click="goCart">
       <i class="iconfont icon-leimupinleifenleileibie--1 f2"></i>
       <span>分类</span>
     </div>
-    <div class="footShop f1 ">
+    <div class="footShop f1 " @click="goClassify">
 
       <span class="f3">出售</span>
     </div>
-    <div class="footMsg f1">
+    <div class="footMsg f1" @click="goChat">
       <i class="iconfont icon-xinxi f2"></i>
       <span>消息</span>
     </div>
-    <div class="footMine f1">
+    <div class="footMine f1" @click="goMine">
       <i class="iconfont icon-ziyuan1 f2"></i>
       <span>我的</span>
     </div>
@@ -34,12 +34,23 @@
         name: "indexFooter",
         methods:{
           goIndex(){
-
             this.$router.push({path:'/'})
           },
           goJiaHao(){
             this.$router.push({path:'/JiaHao'})
-          }
+          },
+          goCart(){
+            this.$router.push({path:'/cart'})
+          },
+          goClassify(){
+            this.$router.push({path:'/classify'})
+          },
+          goChat(){
+            this.$router.push({path:'/chat'})
+          },
+          goMine(){
+            this.$router.push({path:'/me'})
+          },
         }
     }
 </script>
