@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-      <i class="iconfont icon-jiantou-copy-copy"></i>
+      <i class="iconfont icon-jiantou-copy-copy" @click="gotosearch"></i>
       <h2>{{data.name}}</h2>
       <h3>...</h3>
     </div>
@@ -13,6 +13,11 @@
           return{
             commodity:'CHANEL香奈儿',
             data:{}
+          }
+        },
+        methods:{
+          gotosearch(){
+            this.$router.push({path:'/search'})
           }
         },
         created(){
