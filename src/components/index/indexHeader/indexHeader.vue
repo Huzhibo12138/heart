@@ -25,11 +25,11 @@
           },
           toSearch(){
             // console.log(11111111111)
-            this.$router.push({path:'search',name:'search'})
+            this.$router.push({path:'/search',name:'search'})
           },
-          toCars(){
+          toCart(){
             // console.log(11111111111)
-            this.$router.push({path:'cart',name:'cart'})
+            this.$router.push({path:'/cart',name:'cart'})
           }
         }
     }
