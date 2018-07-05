@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-<<<<<<< HEAD
 import Search from '@/components/public/search/search'
 import Order from '@/pages/order'
 import classfly from '../pages/classfly'
