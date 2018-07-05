@@ -15,7 +15,7 @@
     </div>
     <div class="brandsImg">
       <a href="">
-        <img src="/static/imgs/wq1.jpg" alt="">
+        <img src="/static/imgs/wm1.jpg" alt="">
       </a>
     </div>
   </div>

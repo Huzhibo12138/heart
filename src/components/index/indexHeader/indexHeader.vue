@@ -8,7 +8,7 @@
     <div class="logo" @click="goHeader">
       <img src="/static/imgs/logo.png" alt="">
     </div>
-    <div class="to" @click="toCars">
+    <div class="to" @click="toCart">
       <i class="iconfont icon-ziyuan"></i>
     </div>
 
@@ -29,7 +29,7 @@
           },
           toCars(){
             // console.log(11111111111)
-            this.$router.push({path:'cars',name:'cars'})
+            this.$router.push({path:'cart',name:'cart'})
           }
         }
     }
