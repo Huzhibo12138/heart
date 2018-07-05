@@ -9,7 +9,9 @@ import FaBu from '../pages/FaBu'
 import lv from '../pages/lv'
 import chat from '@/pages/chat'
 import consult from '@/pages/consult'
-
+import particulars from '@/pages/particulars'
+import cart from'@/pages/cart'
+import me from'@/pages/me'
 Vue.use(Router)
 
 export default new Router({
@@ -62,6 +64,21 @@ export default new Router({
       path: '/consult',
       name: 'consult',
       component: consult
+    },
+    {
+      path: '/particulars',
+      name: 'particulars',
+      component: particulars
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: cart
+    },
+    {
+      path: '/me',
+      name: 'me',
+      component: me
     }
   ]
 })
