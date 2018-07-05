@@ -4,12 +4,11 @@
       <i class="iconfont icon-fangzicopy f2"></i>
       <span >首页</span>
     </div>
-    <div class="footList f1" @click="goCart">
+    <div class="footList f1" @click="goClassify">
       <i class="iconfont icon-leimupinleifenleileibie--1 f2"></i>
       <span>分类</span>
     </div>
-    <div class="footShop f1 " @click="goClassify">
-
+    <div class="footShop f1 ">
       <span class="f3">出售</span>
     </div>
     <div class="footMsg f1" @click="goChat">
@@ -39,9 +38,7 @@
           goJiaHao(){
             this.$router.push({path:'/JiaHao'})
           },
-          goCart(){
-            this.$router.push({path:'/cart'})
-          },
+
           goClassify(){
             this.$router.push({path:'/classify'})
           },
