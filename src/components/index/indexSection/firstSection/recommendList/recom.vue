@@ -151,7 +151,7 @@
       white-space: nowrap;
     }
     .f6{
-      width:0.8rem;
+      width:0.6rem;
       overflow: hidden;
       text-overflow:ellipsis;
       white-space: nowrap;

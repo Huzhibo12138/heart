@@ -40,7 +40,7 @@
           },
 
           goClassify(){
-            this.$router.push({path:'/classify'})
+            this.$router.push({path:'/classfly'})
           },
           goChat(){
             this.$router.push({path:'/chat'})

@@ -16,7 +16,7 @@
     },
     methods:{
       goToBefore() {
-      	this.$router.go(-1);
+      	this.$router.push({path:'index'});
       },
       search(ev) {
         if(ev.keyCode == 13) {

@@ -1,7 +1,7 @@
 <template>
   <div class="addAddress">
     <div class="orderHeader">
-        <img src="/static/imgs/order_back.jpg" alt="">
+        <img src="/static/imgs/order_back.jpg" alt="" @click="goToBefore">
       <p class="msg">
         选择送货地址
       </p>
@@ -54,6 +54,9 @@
         }
       },
       methods:{
+      goToBefore() {
+      	this.$router.go(-1);
+      },
         cleanMsg() {
           setTimeout(() => {
             this.msg = '';
