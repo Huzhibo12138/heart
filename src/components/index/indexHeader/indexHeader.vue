@@ -28,7 +28,7 @@
             this.$router.push({path:'/search',name:'search'})
           },
           toCart(){
-            // console.log(11111111111)
+
             this.$router.push({path:'/cart',name:'cart'})
           }
         }

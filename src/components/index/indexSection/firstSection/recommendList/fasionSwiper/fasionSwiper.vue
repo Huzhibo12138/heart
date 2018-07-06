@@ -9,7 +9,7 @@
 
     </div>
     <!-- 如果需要分页器 -->
-    <div class="swiper-pagination"  id="swiper4p"></div>
+    <!--<div class="swiper-pagination"  id="swiper4p"></div>-->
 
   </div>
 

@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/pages/index'
-// import eeee from '@/pages/eeee'
 import suggest from '../components/index/indexSection/firstSection/recommend'
 import bags from '../components/index/indexSection/firstSection/bags'
 import watch from '../components/index/indexSection/firstSection/watch'
