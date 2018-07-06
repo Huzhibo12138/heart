@@ -63,11 +63,14 @@ section{
   height: 1.51rem;
   width: 3.75rem;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
 }
 .list a{
-  width: 1.24rem;
+  width: 33.33333%;
   height: 0.75rem;
+  box-sizing: border-box;
   border-bottom: 1px solid #f4f4f4;
   border-right: 1px solid #f4f4f4;
   color: #474747;
